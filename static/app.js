@@ -7,6 +7,8 @@ form.addEventListener('submit', (e) => {
   getColors();
 });
 
+// test comment
+
 function createColorBoxes(colors, container) {
   container.innerHTML = '';
   for (const color of colors) {
